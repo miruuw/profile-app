@@ -1,6 +1,4 @@
 @import "tailwindcss";
-
-@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -8,24 +6,23 @@
   .nav__link {
     @apply relative text-base font-medium w-fit block text-white;
   }
-}
 
-/* Tambahkan pseudo-element secara manual */
-.nav__link::after {
-  content: '';
-  display: block;
-  position: absolute;
-  height: 3px;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  background-color: #facc15; /* yellow-400 */
-  transform: scaleX(0);
-  transform-origin: right;
-  transition: transform 0.3s ease;
-}
+  .nav__link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: theme('colors.yellow.400');
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.3s ease;
+  }
 
-.nav__link:hover::after {
-  transform: scaleX(1);
-  transform-origin: left;
+  .nav__link:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
 }

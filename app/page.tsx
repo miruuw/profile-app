@@ -3,7 +3,7 @@ import Home from '@/components/Home/Home'
 
 const HomePage = () => {
   return (
-    <div>
+    <div className='h-[100px]'>
       <Home />
     </div>
   )
