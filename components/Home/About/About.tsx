@@ -93,6 +93,7 @@ const About = () => {
                     <p className='text-base sm:text-lg text-gray-400 text-center'>
                         Website Launched
                     </p>
+                    <p>Test Public</p>
                 </div>
             </div>
         </div>
