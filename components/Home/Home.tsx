@@ -1,9 +1,18 @@
 import React from 'react'
+import Hero from './Hero/Hero'
+import About from './About/About'
 
 const Home = () => {
   return (
     <div className='overflow-hidden'>
-      <p>Home</p>
+      <Hero />
+      <About />
+      {/* <Navbar /> */}
+      {/* <About /> */}
+      {/* <Skills /> */}
+      {/* <Projects /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}  
     </div>
   )
 }

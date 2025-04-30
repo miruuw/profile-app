@@ -25,4 +25,10 @@
     transform: scaleX(1);
     transform-origin: left;
   }
+
+  .text-bg {
+    background-image: linear-gradient(to right, #8750f2 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }
