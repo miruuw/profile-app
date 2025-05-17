@@ -7,6 +7,7 @@ import Skills from './Skills/Skills'
 import Reviews from './Reviews/Reviews'
 import Blog from './Blog/Blog'
 import Contact from './Contact/Contact'
+import Footer from './Footer/Footer'
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <Reviews/>
       <Blog/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

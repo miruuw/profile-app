@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import ResponsiveNavBar from "../components/Home/Navbar/ResponsiveNavbar";
 import './globals.css';
+import Footer from "@/components/Home/Footer/Footer";
+import ScrollOnTop from "@/components/Helper/ScrollOnTop";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,6 +32,8 @@ export default function RootLayout({
       >
       <ResponsiveNavBar />
         {children}
+      <Footer/>
+      <ScrollOnTop/>
       </body>
     </html>
   );
