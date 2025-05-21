@@ -9,7 +9,11 @@ const Services = () => {
       <SectionHeading>My Services</SectionHeading>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-10 w-[80%] mx-auto items-center mt-20">
         {servicesData.map((service, index) => (
-          <div key={index}>
+          <div 
+          data-aos="fade-left"
+          data-aos-anchor-placement="top-center"
+          data-aos-delay={`${index * 150}`}
+          key={index}>
             <ServiceCard service={service} />
           </div>
         ))}

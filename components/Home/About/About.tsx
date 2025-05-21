@@ -9,9 +9,11 @@ const About = () => {
     <div className='pt-16 pb-16 bg-[#050709]'>
         {/* SectionHeading */}
         <SectionHeading>About Me</SectionHeading>
-        <div className='w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20'>
+        <div 
+        className='w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mt-20'>
             {/* Text Content */}
-            <div>
+            <div data-aos="fade-left"
+        data-aos-anchor-placement="top-center">
                 <h1 className='text-bg text-[26px] sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-200'>{aboutInfo.title}</h1>
                 <p className='mt-6 text-base text-gray-500'>{aboutInfo.description}</p>
                 <div className='mt-8'>
@@ -37,7 +39,11 @@ const About = () => {
                 </div>
             </div>
             {/* Stats Content */}
-            <div className='grid grid-cols-2 gap-16 items-center lg:mx-auto'>
+            <div
+            data-aos="zoom-in"
+        data-aos-anchor-placement="top-center"
+        data-aos-delay="150"
+             className='grid grid-cols-2 gap-16 items-center lg:mx-auto'>
                 {/* 1st stat */}
                 <div>
                     <Image
