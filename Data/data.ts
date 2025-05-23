@@ -3,18 +3,18 @@ export const BaseInfo = {
     name: "Said Amirudin",
     position: "Full Stack Web Developer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit porro numquam ad, vero consequuntur aperiam cumque voluptatum pariatur veniam? Qui facilis est ipsam odio cum!",
+      "With a strong background in IT and a passion for web development, I create digital solutions that are not only functional but also deliver great user experiences. I'm ready to help you build a website or application that meets your business needs.",
     profilePic: "/images/hero.png",
   };
   
   export const aboutInfo = {
     title: "Crafting Web Application with Passion and Precision",
     description:
-      "At webdev warriors, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
-    client: "50+",
-    experience: "3+",
-    project: "200+",
-    website: "100+",
+      "At nusadev, we’re a dedicated team of designers and developers committed to delivering tailored web solutions. With a blend of creativity and technical expertise, we help businesses elevate their online presence and achieve their goals",
+    client: "3+",
+    experience: "1+",
+    project: "5+",
+    website: "5+",
   };
   
   export const servicesData = [
@@ -160,21 +160,15 @@ export const BaseInfo = {
     },
     {
       id: 8,
-      title: "Python",
-      image: "/images/python.svg",
-      percent: "55%",
-    },
-    {
-      id: 9,
       title: "Firebase",
       image: "/images/firebase.svg",
       percent: "75%",
     },
     {
-      id: 10,
-      title: "Vue",
-      image: "/images/vue.svg",
-      percent: "35%",
+      id: 8,
+      title: "My SQL",
+      image: "/images/mysql.svg",
+      percent: "55%",
     },
   ];
   
@@ -241,8 +235,8 @@ export const BaseInfo = {
   ];
   
   export const contactData = {
-    phone: "+88(012345 789)",
-    email: "example@gmail.com",
-    address: "Dhaka , Bangladesh",
+    phone: "+62 (85726386625)",
+    email: "saidammir80@gmail.com",
+    address: "Yogyakarta , Indonesia",
   };
   
