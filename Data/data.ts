@@ -1,6 +1,6 @@
 
 export const BaseInfo = {
-    name: "Said Amirudin",
+    name: "Nur Said Amirudin",
     position: "Full Stack Web Developer",
     description:
       "With a strong background in IT and a passion for web development, I create digital solutions that are not only functional but also deliver great user experiences. I'm ready to help you build a website or application that meets your business needs.",

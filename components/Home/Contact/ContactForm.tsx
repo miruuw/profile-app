@@ -4,7 +4,7 @@ const ContactForm = () => {
   return (
     <div className='bg-[#140c1c] rounded-lg p-4 sm:p-10'>
       <h1 className='text-white text-2xl md:text-3xl lg:text-[2.5rem] font-bold'>
-        Let's Work Together!
+        Let&apos;s Work Together!
       </h1>
       <p className='text-gray-300 mt-3 text-sm md:text-base'>
         Silakan isi formulir di bawah ini untuk menghubungi kami.
