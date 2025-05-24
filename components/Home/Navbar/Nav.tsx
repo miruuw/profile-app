@@ -1,6 +1,5 @@
 import { navLinks } from '@/constant/constant'
 import Image from 'next/image'
-import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { HiBars3BottomRight } from 'react-icons/hi2'
 
@@ -43,12 +42,13 @@ const Nav = ({ openNav }: Props) => {
         <div className='flex items-center space-x-10'>
           <div className='hidden lg:flex items-center space-x-8'>
             {navLinks.map((link) => (
-              <Link
+              <a
                 key={link.id}
                 href={link.url}
+                className='nav__link'
               >
-                <p className='nav__link'>{link.label}</p>
-              </Link>
+                {link.label}
+              </a>
             ))}
           </div>
 
