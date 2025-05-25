@@ -13,7 +13,6 @@ type Props = {
 }
 
 const ServiceCard = ({ service }: Props) => {
-  console.log(service);
 
   return (
     <Tilt className='shadow-2xl p-6 rounded-lg bg-[#814ced]'>
