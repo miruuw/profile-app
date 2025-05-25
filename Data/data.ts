@@ -167,7 +167,7 @@ export const BaseInfo = {
     {
       id: 8,
       title: "My SQL",
-      image: "/images/mysql.svg",
+      image: "/images/sqlserver.png",
       percent: "55%",
     },
   ];
