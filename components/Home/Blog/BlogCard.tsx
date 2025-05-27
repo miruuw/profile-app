@@ -29,6 +29,7 @@ const BlogCard = ({blog}: Props) => {
             <div className='mt-4 mb-4 w-full h-[1.5px] bg-gray-400 opacity-45'></div>
             <div className='flex items-center justify-between'>
                 <h1 className='text-sm text-gray-300 font-bold'>{date}</h1>
+                {/* link read more */}
                 <button className='text-base hover:text-rose-500 text-gray-200 underline font-bold'>Read More</button>
             </div>
         </div>
