@@ -34,7 +34,7 @@ const Hero = () => {
             </p>
             {/* Button (as link) */}
             <a
-              href="/CV/CV - Nur Said Amirudin IT Support.pdf"
+              href="/CV/CV _ NUR SAID AMIRUDIN_FINAL .pdf"
               download
               className='inline-flex items-center space-x-2 md:px-8 md:py-2.5 px-6 py-1.5 text-white font-semibold text-sm md:text-lg transition-all duration-200 rounded-lg mt-8 bg-blue-700 hover:bg-blue-900'
               data-aos="fade-up"
